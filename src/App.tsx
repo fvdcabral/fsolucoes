@@ -147,8 +147,8 @@ function HomePage() {
             <div className="flex items-center">
               <Mail className="w-8 h-8 text-blue-600 mr-4" />
               <div>
-                <h3 className="font-semibold mb-1">Email</h3>
-                <p className="text-gray-600">felipe@pisomtecnologia.com.br</p>
+                <h3 className="font-semibold mb-1">E-mail</h3>
+                <p className="text-gray-600">felipe.cabral@fsolucoes.dev.br</p>
               </div>
             </div>
             <div className="flex items-center">
@@ -171,7 +171,10 @@ function HomePage() {
             <Boxes className="w-8 h-8 text-white mr-2" strokeWidth={1.5} />
             <span className="text-xl font-bold">FSoluções</span>
           </div>
-          <p>© 2025 FSoluções. Todos os direitos reservados.</p>
+          <p>
+            © 2025 FSoluções CNPJ 27.739.263/0001-73. Todos os direitos
+            reservados.
+          </p>
         </div>
       </footer>
     </div>
