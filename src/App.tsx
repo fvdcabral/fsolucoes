@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import {
   Building2,
   Code2,
@@ -11,9 +12,11 @@ import {
   Boxes,
 } from "lucide-react";
 import { ContactForm } from "./components/ContactForm";
+import { History } from "./pages/History";
 
-function App() {
+function HomePage() {
   const [showContactForm, setShowContactForm] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-white">
@@ -116,7 +119,10 @@ function App() {
                 está comprometida em entregar resultados excepcionais e
                 impulsionar o sucesso dos nossos clientes.
               </p>
-              <button className="text-blue-600 font-semibold flex items-center hover:text-blue-700">
+              <button
+                onClick={() => navigate("/historia")}
+                className="text-blue-600 font-semibold flex items-center hover:text-blue-700"
+              >
                 Conheça nossa história <ArrowRight className="ml-2" />
               </button>
             </div>
@@ -165,10 +171,19 @@ function App() {
             <Boxes className="w-8 h-8 text-white mr-2" strokeWidth={1.5} />
             <span className="text-xl font-bold">FSoluções</span>
           </div>
-          <p>© 2024 FSoluções. Todos os direitos reservados.</p>
+          <p>© 2025 FSoluções. Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/historia" element={<History />} />
+    </Routes>
   );
 }
 
