@@ -50,9 +50,10 @@ export function History() {
                 O Início (2017)
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                A FSoluções nasceu da visão de transformar a maneira como as
-                empresas lidam com tecnologia. Começamos como uma pequena
-                consultoria, mas com grandes ambições de criar soluções
+                A FSoluções (FELIPE VICTOR DIAS CABRAL - ME - CNPJ
+                27.739.263/0001-73) nasceu da visão de transformar a maneira
+                como as empresas lidam com tecnologia. Começamos como uma
+                pequena consultoria, mas com grandes ambições de criar soluções
                 inovadoras que realmente fizessem a diferença no mercado.
               </p>
             </div>
@@ -121,7 +122,10 @@ export function History() {
             <Boxes className="w-8 h-8 text-white mr-2" strokeWidth={1.5} />
             <span className="text-xl font-bold">FSoluções</span>
           </div>
-          <p>© 2025 FSoluções. Todos os direitos reservados.</p>
+          <p>
+            © 2025 FELIPE VICTOR DIAS CABRAL - ME - CNPJ 27.739.263/0001-73.
+            Todos os direitos reservados.
+          </p>
         </div>
       </footer>
     </div>

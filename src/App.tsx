@@ -172,8 +172,8 @@ function HomePage() {
             <span className="text-xl font-bold">FSoluções</span>
           </div>
           <p>
-            © 2025 FSoluções CNPJ 27.739.263/0001-73. Todos os direitos
-            reservados.
+            © 2025 FELIPE VICTOR DIAS CABRAL - ME - CNPJ 27.739.263/0001-73.
+            Todos os direitos reservados.
           </p>
         </div>
       </footer>
